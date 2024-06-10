@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Korneliusz Kamiński</h1>
+    </header>
+    <main>
+        <section class="tiles">
+            <div class="tile">
+                <h2>O mnie</h2>
+                <p>Nazywam się Kornel (w internecie korneljuz). Mieszkam w Bełżycach i interesuje się wszystkim co technologiczne.</p>
+                <p>Mam dwóch młodszych braci i całkiem sporą rodzinę. Jestem instruktorem robotyki, ucze młodsze dzieci robotyki za pomocą LEGO.</p>
+                <p>W wolnym czasie programuje i kieruje działem Programistów w drużynie, jestem ich liderem.</p>
+            </div>
+            <div class="tile">
+                <h2>Satelita</h2>
+                <p>Od niedawna razem z kolegami z klasy tworzę projekt mini satelity, którą mamy zamiar zrzucić ze sporej wysokości i wykonać kilka pomiarów.
+                    Satelita ma być wyposażona w czujniki, pozwalające zbadać temperaturę, wilgotność, ciśnienie, wysokość i inne parametry lotu oraz musi wysłać te dane do stacji naziemnej w każdej sekundzie lotu.
+                </p>
+            </div>
+            <div class="tile">
+                <h2>Robotyka</h2>
+                <p>Robotami zacząłem interesować się w 2020 roku. Zapisałem się na zajęcia w Kraśniku a 3 lata później zostałem Mistrzem Polski w Robotyce. 
+                    Od tego czasu zostałem zaproszony do drużyny olimpijskiej Spice Gears 5883, która reprezentuje Polskę na arenie międzynarodowej. 
+                    Razem z tą drużyną uczestniczyłem w zawodach w 2022 roku w Szwajcarii, w 2023 byliśmy również w Singapurze. 
+                    W tym roku we wrześniu wylatujemy na olimpiadę do Grecji. 
+                </p>
+                <img src="DSC09314.JPG" alt="Obraz portfolio" style="height: 400px">
+            </div>
+            <div class="tile">
+                <h2>Straż Pożarna</h2>
+                <p>Od dziecka interesowałem się strażą pożarną. Do swojej jednostki dołączyłem w 2018 roku. Obecnie jestem dowódcą Młodzieżowej Drużyny Pożarniczej, a już za rok będe miał możliwość uczestniczenia w kursie podstawowym strażaków OSP, który uprawni mnie do brania aktywnego udziału w działaniach i gaszeniu pożarów.</p>
+                <img src="IMG_2394.jpg" alt="Obraz portfolio" width="400px">
+            </div>
+            <div class="tile">
+                <h2>Kod źródłowy</h2>
+                <div>
+                    <p>Kod źródłowy tej strony jest dostępny na GitHubie.</p>
+                <button onclick="window.location.href='https://github.com/'">Zobacz na GitHubie</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Skontaktuj się ze mną!</h2>
+            <form action="#" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Korneliusz Kamiński</p>
+    </footer>
+</body>
+</html>
